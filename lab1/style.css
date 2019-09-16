@@ -1,0 +1,37 @@
+
+
+.container {
+ width: 650px;
+    margin: 0 auto;
+    text-align: center;
+    padding: 25px;
+
+}
+.player
+{
+    width: 150px;
+    height: 150px;
+    margin ;100px   50px;
+    display: inline-block;
+}
+.player p{
+    font-weight: 700;
+
+}
+.player div{
+    height: 100%;
+    width: 100%;
+}
+.rock{
+    background-image: url(images/rock.png);
+}
+.paper{
+    background-image: url(images/paper.png);
+}
+.scissors{
+    background-image: url(images/scissors.png);
+}
+.rock,paper,scissors{
+    background-size: contain;
+    background-repeat: no-repeat;
+}
